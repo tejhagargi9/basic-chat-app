@@ -33,7 +33,7 @@ const App = () => {
         <h1>ChattyApp</h1>
         {chat.map((payload) => (
           <p key={payload.id}>
-            <strong>{payload.timestamp}:</strong> {payload.message}
+            <span>{payload.timestamp}:</span>{payload.message}
           </p>
         ))}
         <form onSubmit={sendChat}>
