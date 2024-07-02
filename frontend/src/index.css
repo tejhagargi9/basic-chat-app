@@ -1,0 +1,19 @@
+* {
+  font-family: cursive;
+}
+input {
+  font-size: larger;
+}
+button {
+  font-size: larger;
+  margin-left: 15px;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
